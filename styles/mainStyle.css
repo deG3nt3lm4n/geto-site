@@ -1,42 +1,6 @@
-/* Classess */
-.btn{
-  padding: 12px 10px;
-  background-color: rgb(56, 31, 19);
-  border: none;
-  color: #fff;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 20px;
-}
-/* Mini defaults */
-a{
-  text-decoration: none;
-  color: inherit; 
-}
+
 /* mini class styles */
-/* ============= Main Header Styles =============== */
-#mainHeader{
-  background-color: rgb(29, 38, 53);
-  color: #fff;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#logo{
-  letter-spacing: 1px;
-}
-#mainNav{
-  background-color: rgb(16, 21, 29);
-  padding: 10px;
-}
-#mainNav a{
-  padding: 5px 10px;
-  text-transform: uppercase;
-  font-size: 12px;
-}
+
 /* ================= Hero styles ================= */
 #hero{
   background: url('https://images.unsplash.com/photo-1508197149814-0cc02e8b7f74?ixlib=rb-1.2.1&auto=format&fit=crop&w=1544&q=80') no-repeat center center/cover;

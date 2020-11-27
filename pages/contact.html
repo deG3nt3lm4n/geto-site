@@ -3,9 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Styles -->
+  <link rel="stylesheet" href="../styles/styles.css">
   <title>de_gent</title>
 </head>
 <body>
-  <p>contact</p>
+    <!-- Header Component -->
+    <header id="mainHeader">
+
+      <h2 id="logo">
+        <a href="/">de_gentleman</a>
+      </h2>
+  
+      <nav id="mainNav">
+        <a href="./pages/contact.html" class="current">contact</a>
+        <a href="./pages/profile.html">Profile</a>
+        <a href="./pages/geto.html">Geto Site</a>
+      </nav>
+  
+    </header>
+    <main>
+      <h1>Contact me</h1>
+      <form>
+        <label for="name">
+          Name:
+          <input type="text" name="name" id="name" placeholder="Name">
+        </label>
+        <label for="email">
+          Email:
+          <input type="email" name="email" id="email" placeholder="Email">
+        </label>
+        <label for="description">Description:</label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
 </body>
 </html>

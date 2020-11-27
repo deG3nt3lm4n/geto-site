@@ -1,7 +1,18 @@
+/* Classess */
+.btn{
+  padding: 12px 10px;
+  background-color: rgb(56, 31, 19);
+  border: none;
+  color: #fff;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+}
 /* Mini defaults */
 a{
   text-decoration: none;
-  color: inherit;
+  color: inherit; 
 }
 /* mini class styles */
 /* ============= Main Header Styles =============== */
@@ -37,12 +48,15 @@ a{
 }
 .hero-content{
   background-color: rgb(16, 21, 29);
-  padding: 10px;
+  border: 10px double #fff;
+  padding: 20px;
+  min-width: 500px;
   color: #fff;
   text-align: center;
 }
 .hero-content h1{
-  font-size: 2.8rem;
+  font-size: 2.9rem;
+  padding-bottom: 10px;
 }
 .hero h1 span:after{
   content: '';
@@ -59,4 +73,14 @@ a{
   100% {
     opacity: 1;
   }
+}
+.hero-content h2{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding-bottom: 10px;
+}
+.hero-content p{
+  font-size: 1.2rem;
+  padding-bottom: 10px;
 }
